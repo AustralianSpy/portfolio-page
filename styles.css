@@ -27,8 +27,28 @@ body {
     background-color: #4C3B4D;
 }
 
+/* Link class controls anchor tag link animations. */
+
+.link {
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: all ease-in-out 200ms;
+}
+
+.link:hover {
+    color: #61C9A8;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 h2, h3 {
     color: #bd416e;
+    font-size: 2rem;
 }
 
 main section {
@@ -47,7 +67,7 @@ hr {
 
 header {
     background-color: #ADA8B6;
-    padding: 1em;
+    padding: 2em;
     text-transform: uppercase;
 }
 
@@ -56,9 +76,11 @@ h1 {
     font-weight: 600;
 }
 
-header h2 {
+h2 {
     font-weight: 400;
+    font-size: 2rem;
 }
+
 
 img {
     border: 5px solid #61C9A8;
@@ -89,20 +111,6 @@ ol li::before {
     content: "";
     width: 0.5rem;
     display: inline-block;
-}
-
-ol a {
-    color: #ADA8B6;
-    font-size: 1.2rem;
-    font-weight: 400;
-    text-decoration: none;
-    transition: all ease-in-out 200ms;
-}
-
-ol a:hover {
-    color: #61C9A8;
-    font-weight: 600;
-    letter-spacing: 0.1rem;
 }
 
 /* Footer. */
